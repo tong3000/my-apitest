@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">测试套件</th></tr>
+<tr><td><a href="#t0">测试</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2,847</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">测试套件</th></tr></tbody><tbody id="t0"><tr><th colspan="4">测试 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.th.testcases.Test01</td><td><a href="#m0">test01</a></td><td rowspan="3">1666337316987</td><td rowspan="3">2</td></tr><tr class="passedeven"><td><a href="#m1">test01</a></td></tr><tr class="passedeven"><td><a href="#m2">test01</a></td></tr><tr class="passedodd"><td rowspan="3">com.th.testcases.Test02</td><td><a href="#m3">test01</a></td><td rowspan="3">1666337317034</td><td rowspan="3">1877</td></tr><tr class="passedodd"><td><a href="#m4">test01</a></td></tr><tr class="passedodd"><td><a href="#m5">test01</a></td></tr></tbody>
+</table>
+<h2>测试</h2><h3 id="m0">com.th.testcases.Test01#test01</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>CaseInfo{caseId=2, interfaceName=&apos;用户模块&apos;, title=&apos;获取用户详细信息&apos;, requestHeader=&apos;{&quot;token&quot;:&quot;${token}&quot;,&quot;Content-Type&quot;:&quot;application/json&quot;}&apos;, method=&apos;get&apos;, url=&apos;/api/user/v1/detail&apos;, inputParams=&apos;null&apos;, expected=&apos;{
+    &quot;code&quot;: 0,
+    &quot;data&quot;: {
+        &quot;id&quot;: 17,
+        &quot;name&quot;: &quot;测试&quot;,
+        &quot;slogan&quot;: &quot;人生需要动态规划，学习需要贪心算法&quot;,
+        &quot;sex&quot;: 1,
+        &quot;points&quot;: 0,
+        &quot;mail&quot;: &quot;858352742@qq.com&quot;,
+        &quot;head_img&quot;: &quot;https://lx-test01.oss-cn-shanghai.aliyuncs.com/03.jpg&quot;
+    },
+    &quot;msg&quot;: null
+}&apos;, dbAssert=&apos;{&quot;SELECT count(*) FROM USER where id=&apos;1&apos;;&quot;:1}&apos;, extractExper=&apos;{&quot;id&quot;:&quot;data.id&quot;}&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.th.testcases.Test01#test01</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>CaseInfo{caseId=3, interfaceName=&apos;用户模块&apos;, title=&apos;获取用户详细信息&apos;, requestHeader=&apos;{&quot;token&quot;:&quot;${token}&quot;,&quot;Content-Type&quot;:&quot;application/json&quot;}&apos;, method=&apos;get&apos;, url=&apos;/api/user/v1/detail&apos;, inputParams=&apos;null&apos;, expected=&apos;{
+    &quot;code&quot;: 0,
+    &quot;data&quot;: {
+        &quot;id&quot;: 17,
+        &quot;name&quot;: &quot;测试&quot;,
+        &quot;slogan&quot;: &quot;人生需要动态规划，学习需要贪心算法&quot;,
+        &quot;sex&quot;: 1,
+        &quot;points&quot;: 0,
+        &quot;mail&quot;: &quot;858352742@qq.com&quot;,
+        &quot;head_img&quot;: &quot;https://lx-test01.oss-cn-shanghai.aliyuncs.com/03.jpg&quot;
+    },
+    &quot;msg&quot;: null
+}&apos;, dbAssert=&apos;{&quot;SELECT count(*) FROM USER where id=&apos;1&apos;;&quot;:1}&apos;, extractExper=&apos;{&quot;id&quot;:&quot;data.id&quot;}&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.th.testcases.Test01#test01</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>CaseInfo{caseId=1, interfaceName=&apos;登录模块&apos;, title=&apos;登录系统&apos;, requestHeader=&apos;{&quot;Content-Type&quot;:&quot;application/json&quot;}&apos;, method=&apos;post&apos;, url=&apos;/api/user/v1/login&apos;, inputParams=&apos;{
+  &quot;mail&quot;: &quot;858352742@qq.com&quot;,
+  &quot;pwd&quot;: &quot;12345&quot;
+}&apos;, expected=&apos;null&apos;, dbAssert=&apos;{&quot;SELECT count(*) FROM USER where id=&apos;1&apos;;&quot;:1}&apos;, extractExper=&apos;{&quot;token&quot;:&quot;data&quot;}&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.th.testcases.Test02#test01</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>CaseInfo{caseId=1, interfaceName=&apos;登录模块&apos;, title=&apos;登录系统&apos;, requestHeader=&apos;{&quot;Content-Type&quot;:&quot;application/json&quot;}&apos;, method=&apos;post&apos;, url=&apos;/api/user/v1/login&apos;, inputParams=&apos;{
+  &quot;mail&quot;: &quot;858352742@qq.com&quot;,
+  &quot;pwd&quot;: &quot;12345&quot;
+}&apos;, expected=&apos;null&apos;, dbAssert=&apos;{&quot;SELECT count(*) FROM USER where id=&apos;1&apos;;&quot;:1}&apos;, extractExper=&apos;{&quot;token&quot;:&quot;data&quot;}&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.th.testcases.Test02#test01</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>CaseInfo{caseId=2, interfaceName=&apos;用户模块&apos;, title=&apos;获取用户详细信息&apos;, requestHeader=&apos;{&quot;token&quot;:&quot;daniutesteyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ4ZGNsYXNzIiwiaGVhZF9pbWciOiJodHRwczovL2x4LXRlc3QwMS5vc3MtY24tc2hhbmdoYWkuYWxpeXVuY3MuY29tLzAzLmpwZyIsImlkIjoxNywibmFtZSI6Iua1i-ivlSIsIm1haWwiOiI4NTgzNTI3NDJAcXEuY29tIiwiaWF0IjoxNjY2MzM3MzE2LCJleHAiOjE2NjgwOTAzNDh9.A_J3MUH-Ogzd2eD9p3t1FYl83yRwx4tmzBiK0Tx9VLY&quot;,&quot;Content-Type&quot;:&quot;application/json&quot;}&apos;, method=&apos;get&apos;, url=&apos;/api/user/v1/detail&apos;, inputParams=&apos;null&apos;, expected=&apos;{
+    &quot;code&quot;: 0,
+    &quot;data&quot;: {
+        &quot;id&quot;: 17,
+        &quot;name&quot;: &quot;测试&quot;,
+        &quot;slogan&quot;: &quot;人生需要动态规划，学习需要贪心算法&quot;,
+        &quot;sex&quot;: 1,
+        &quot;points&quot;: 0,
+        &quot;mail&quot;: &quot;858352742@qq.com&quot;,
+        &quot;head_img&quot;: &quot;https://lx-test01.oss-cn-shanghai.aliyuncs.com/03.jpg&quot;
+    },
+    &quot;msg&quot;: null
+}&apos;, dbAssert=&apos;{&quot;SELECT count(*) FROM USER where id=&apos;1&apos;;&quot;:1}&apos;, extractExper=&apos;{&quot;id&quot;:&quot;data.id&quot;}&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.th.testcases.Test02#test01</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>CaseInfo{caseId=3, interfaceName=&apos;用户模块&apos;, title=&apos;获取用户详细信息&apos;, requestHeader=&apos;{&quot;token&quot;:&quot;daniutesteyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ4ZGNsYXNzIiwiaGVhZF9pbWciOiJodHRwczovL2x4LXRlc3QwMS5vc3MtY24tc2hhbmdoYWkuYWxpeXVuY3MuY29tLzAzLmpwZyIsImlkIjoxNywibmFtZSI6Iua1i-ivlSIsIm1haWwiOiI4NTgzNTI3NDJAcXEuY29tIiwiaWF0IjoxNjY2MzM3MzE2LCJleHAiOjE2NjgwOTAzNDh9.A_J3MUH-Ogzd2eD9p3t1FYl83yRwx4tmzBiK0Tx9VLY&quot;,&quot;Content-Type&quot;:&quot;application/json&quot;}&apos;, method=&apos;get&apos;, url=&apos;/api/user/v1/detail&apos;, inputParams=&apos;null&apos;, expected=&apos;{
+    &quot;code&quot;: 0,
+    &quot;data&quot;: {
+        &quot;id&quot;: 17,
+        &quot;name&quot;: &quot;测试&quot;,
+        &quot;slogan&quot;: &quot;人生需要动态规划，学习需要贪心算法&quot;,
+        &quot;sex&quot;: 1,
+        &quot;points&quot;: 0,
+        &quot;mail&quot;: &quot;858352742@qq.com&quot;,
+        &quot;head_img&quot;: &quot;https://lx-test01.oss-cn-shanghai.aliyuncs.com/03.jpg&quot;
+    },
+    &quot;msg&quot;: null
+}&apos;, dbAssert=&apos;{&quot;SELECT count(*) FROM USER where id=&apos;1&apos;;&quot;:1}&apos;, extractExper=&apos;{&quot;id&quot;:&quot;data.id&quot;}&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

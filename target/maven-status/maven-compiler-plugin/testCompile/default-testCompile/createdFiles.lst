@@ -1,0 +1,8 @@
+com\th\testcases\Test02.class
+com\th\config\Contants.class
+com\th\testcases\Test01.class
+com\th\common\BaseTest.class
+com\th\config\Environment.class
+com\th\entries\CaseInfo.class
+com\th\utils\EasyPoiExcelUtil.class
+com\th\utils\JDBCUtils.class

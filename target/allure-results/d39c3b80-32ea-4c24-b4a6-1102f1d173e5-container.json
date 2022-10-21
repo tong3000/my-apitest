@@ -1,0 +1,1 @@
+{"uuid":"d39c3b80-32ea-4c24-b4a6-1102f1d173e5","name":"测试套件","children":["375d8d97-cf6c-47d6-b187-022c28af8261"],"befores":[{"name":"beforeMehtod","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1666337315811,"stop":1666337316321}],"afters":[],"links":[],"start":1666337315789,"stop":1666337319188}
